@@ -122,6 +122,7 @@ public class RsStreamTextureRenderer : MonoBehaviour
 
     void OnNewSample(Frame frame)
     {
+
         try
         {
             if (frame.IsComposite)
